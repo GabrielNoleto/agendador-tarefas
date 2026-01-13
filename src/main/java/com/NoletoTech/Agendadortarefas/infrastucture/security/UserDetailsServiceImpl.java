@@ -1,7 +1,6 @@
 package com.NoletoTech.Agendadortarefas.infrastucture.security;
 
 
-import ch.qos.logback.core.net.server.Client;
 import com.NoletoTech.Agendadortarefas.business.dto.UsuarioDTO;
 import com.NoletoTech.Agendadortarefas.infrastucture.client.usuarioClient;
 import org.springframework.beans.factory.annotation.Autowired;
