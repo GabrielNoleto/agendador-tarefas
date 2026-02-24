@@ -2,7 +2,7 @@ package com.NoletoTech.Agendadortarefas.infrastucture.security;
 
 
 import com.NoletoTech.Agendadortarefas.business.dto.UsuarioDTO;
-import com.NoletoTech.Agendadortarefas.infrastucture.client.usuarioClient;
+import com.NoletoTech.Agendadortarefas.infrastucture.client.UsuarioClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 public class UserDetailsServiceImpl  {
 
     @Autowired
-    private usuarioClient client;
+    private UsuarioClient client;
 
     public UserDetails
     carregaDadosUsuario(String email, String token){
